@@ -15,7 +15,7 @@ const Qaute = () => {
       </h1>
       <div className="flex flex-col sm:flex-row gap-4">
         <a href='https://forms.gle/qkEHLZ3Leugf3Q8S7' target='seft'>
-          <button className="border-2 border-black px-12 py-4 text-lg hover:bg-[#BAFF29] hover:text-black transition duration-300">
+          <button className="border-2 border-black px-12 py-2 xl:py-4 text-lg hover:bg-[#BAFF29] hover:text-black transition duration-300">
           Hire Me Now
         </button>
         </a>
