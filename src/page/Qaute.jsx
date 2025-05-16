@@ -3,8 +3,8 @@ import React from 'react';
 const Qaute = () => {
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = '{`${process.env.PUBLIC_URL}/Brian_rou_resume.pdf`}'; 
-    link.download = 'My_CV.pdf'; // 
+    link.href = `${process.env.PUBLIC_URL}/Brian_rou_resume.pdf`;
+    link.download = 'My_CV.pdf';
     link.click();
   };
 
@@ -14,10 +14,10 @@ const Qaute = () => {
         "ALL I NEED IS ONE OPPORTUNITY TO SHOW YOU WHAT <br className="hidden md:block" /> I CAN DO — LET MY WORK SPEAK FOR ITSELF."
       </h1>
       <div className="flex flex-col sm:flex-row gap-4">
-        <a href='https://forms.gle/qkEHLZ3Leugf3Q8S7' target='seft'>
+        <a href="https://forms.gle/qkEHLZ3Leugf3Q8S7" target="_blank" rel="noopener noreferrer">
           <button className="border-2 border-black px-12 py-2 xl:py-4 text-lg hover:bg-[#BAFF29] hover:text-black transition duration-300">
-          Hire Me Now
-        </button>
+            Hire Me Now
+          </button>
         </a>
         <button
           onClick={handleDownload}
