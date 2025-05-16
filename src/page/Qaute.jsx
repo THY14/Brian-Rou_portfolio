@@ -3,7 +3,7 @@ import React from 'react';
 const Qaute = () => {
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = '/public/Brian_rou_resume.pdf'; 
+    link.href = '{`${process.env.PUBLIC_URL}/Brian_rou_resume.pdf`}'; 
     link.download = 'My_CV.pdf'; // 
     link.click();
   };
