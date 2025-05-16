@@ -1,12 +1,22 @@
 import React from 'react';
-import resumePDF from '/public/Brian_rou_resume.pdf';
-
-const Qaute = () => {
+import pdrf from "../../public/Brian_rou_resume.pdf";
+const Quote = () => {
   const handleDownload = () => {
-    const link = document.createElement('a');
-    link.href = resumePDF; 
-    link.download = 'My_CV.pdf'; // 
+    // Create an anchor element (a link) to simulate a download
+    const link = document.createElement("a");
+    link.href = pdrf; // Reference PDF in public folder
+
+    // Set the download attribute to suggest a filename for the download
+    link.setAttribute("download", "My_CV.pdf");
+
+    // Append that element to the body
+    document.body.appendChild(link);
+
+    // Trigger the download by simulating a click on that new link
     link.click();
+
+    // Finally, remove the link from the document once it’s done
+    document.body.removeChild(link);
   };
 
   return (
@@ -15,10 +25,10 @@ const Qaute = () => {
         "ALL I NEED IS ONE OPPORTUNITY TO SHOW YOU WHAT <br className="hidden md:block" /> I CAN DO — LET MY WORK SPEAK FOR ITSELF."
       </h1>
       <div className="flex flex-col sm:flex-row gap-4">
-        <a href='https://forms.gle/qkEHLZ3Leugf3Q8S7' target='seft'>
+        <a href="https://forms.gle/qkEHLZ3Leugf3Q8S7" target="_self">
           <button className="border-2 border-black px-12 py-2 xl:py-4 text-lg hover:bg-[#BAFF29] hover:text-black transition duration-300">
-          Hire Me Now
-        </button>
+            Hire Me Now
+          </button>
         </a>
         <button
           onClick={handleDownload}
@@ -31,4 +41,4 @@ const Qaute = () => {
   );
 };
 
-export default Qaute;
+export default Quote;
