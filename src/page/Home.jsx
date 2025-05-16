@@ -38,14 +38,15 @@ const Home = () => {
         </div>
 
         {/* Right text section */}
-        <div className="w-full sm:w-1/2 bg-black text-white flex flex-col px-6 sm:px-12 lg:px-24 py-12 sm:py-0 relative h-[60vh] sm:h-full ">
-          <div className="sm:absolute sm:top-64">
-            <h1 className="text-4xl sm:text-7xl lg:text-7xl lg:mt-[100%] md:text-5xl md:mt-[50%] xl:-mt-22  font-bold font-oswald tracking-wide">
+        <div className="w-full sm:w-1/2 bg-black text-white flex flex-col  px-4 sm:px-12 lg:px-24 py-12 sm:py-0 relative h-[60vh] sm:h-full  ">
+            <div className='flex flex-row md:flex md:flex-col'>
+              <div className="sm:absolute sm:top-64">
+            <h1 className="text-[30px] sm:text-7xl lg:text-7xl lg:mt-[100%] md:text-5xl md:mt-[50%] xl:-mt-22  font-bold font-oswald tracking-wide">
               <AnimatedLetters text="HELLO!" />
             </h1>
           </div>
           <div className="mt-4 sm:mt-0 sm:absolute sm:top-[320px] ">
-            <h2 className="text-3xl sm:text-7xl lg:text-7xl lg:mt-[60%]  xl:-mt-14  font-bold font-oswald tracking-wide flex flex-wrap md:text-5xl md:mt-[30%]">
+            <h2 className="text-[30px] sm:text-7xl -mt-4 ml-3 lg:text-7xl lg:mt-[60%]  xl:-mt-14  font-bold font-oswald tracking-wide flex flex-wrap md:text-5xl md:mt-[30%]">
               <AnimatedLetters text="I'M" delay={0.8} />
               <span className="mx-2"></span>
               <AnimatedLetters text="BRIAN" delay={1.2} color="#BAFF29" />
@@ -53,6 +54,7 @@ const Home = () => {
               <AnimatedLetters text="ROU" delay={1.8} color="#BAFF29" />
             </h2>
           </div>
+            </div>
 
           <div className="mt-6 sm:mt-0 sm:absolute sm:top-[440px] max-w-full md:mt-[25%] md:w-[290px] lg:mt-[60%]  xl:-mt-12 xl:w-[540px] ">
             <p className="text-gray-400 text-sm sm:text-base lg:text-lg xl:text-[15px]">
