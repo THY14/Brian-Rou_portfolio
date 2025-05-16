@@ -32,7 +32,7 @@ const Quote = () => {
         </a>
         <button
           onClick={handleDownload}
-          className="border-2 border-black px-12 py-2 xl:py-3 text-lg hover:bg-[#BAFF29] hover:text-black transition duration-300"
+          className="border-2 border-black px-11 py-2 xl:py-3 text-lg hover:bg-[#BAFF29] hover:text-black transition duration-300"
         >
           Download CV
         </button>

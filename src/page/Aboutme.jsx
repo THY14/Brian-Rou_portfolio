@@ -6,7 +6,7 @@ import photo4 from "../assets/Images/img5.jpg";
 
 const Aboutme = () => {
   return (
-    <div className=" min-h-screen w-full md:w-100vw  flex flex-col items-center justify-center p-4  mt-12  md:-mt-12 md:p-0 pb-16 xl:mt-34 ">
+    <div className=" min-h-screen w-full md:w-100vw  flex flex-col items-center justify-center p-4 -mt-4 md:-mt-12 md:p-0 pb-16 xl:mt-34 ">
       {/* Container - Column on mobile, Row on tablet/desktop */}
       <div className="flex flex-col md:flex-row w-full bg-white">
         {/* Left Column: Images and Decorative Elements */}
@@ -73,7 +73,7 @@ const Aboutme = () => {
         
         {/* Text Content for tablet and desktop (side by side) */}
         <div className="hidden md:flex w-full md:pl-6 md:leading-[<6px>] md:h-[531px]  md:w-[45%] p-4 md:p-2 flex-col justify-evenly space-y-2 md:space-y-2 lg:space-y-4 mt-6 md:mt-13 lg:mt-4 xl:mt-[7.4%] xl:-ml-4">
-          <h1 className="text-3xl md:text-4xl lg:text-[40px] xl:text-[50px] font-semibold text-gray-800 font-jost">This Is Brian</h1>
+          <h1 className="text-3xl md:text-4xl lg:text-[40px] xl:text-[50px] font-semibold text-gray-800 font-jost ">This Is Brian</h1>
           <h3 className="text-base md:text-[14px] lg:text-[15px] xl:text-[20px] text-gray-600">
             Study At Cambodia Academy Of Digital Technology (CADT)
           </h3>
@@ -98,7 +98,7 @@ const Aboutme = () => {
 
       {/* Text Content for mobile only (below images) */}
       <div className="block md:hidden w-full p-4  space-y-4 mt-6 ">
-        <h1 className="text-3xl font-semibold text-gray-800 font-jost text-start -ml-5">This Is Brian</h1>
+        <h1 className="text-3xl font-semibold text-gray-800 font-jost text-start -ml-4">This Is Brian</h1>
         <h3 className="text-[12px] text-gray-600 text-start -ml-[4%]">
           Study At Cambodia Academy Of Digital Technology (CADT)
         </h3>

@@ -5,8 +5,8 @@ const Skill = () => {
     <div className='h-full  flex items-center flex-col justify-start p-2 relative -mt-6  md:-mt-[45%] lg:-mt-30 xl:mt-8 '>
       {/* Header Section */}
       <div className="text-center max-w-4xl mx-auto mb-8 mt-10 md:mt-16">
-        <h1 className='text-[20px] md:text-3xl lg:text-[40px]  font-medium -mt-4 font-jost text-center ml-4 md:ml-0'>I TELL THE STORY OF THE TIME</h1>
-        <p className='font-normal text-[10px] md:text-lg lg:text-xl mt-1 ml-4 md:ml-0'>Share Your Business And Project Goals — You Can Count On Me!</p>
+        <h1 className='text-[20px] md:text-3xl lg:text-[40px]  font-medium -mt-4 font-jost text-center  md:ml-0'>I TELL THE STORY OF THE TIME</h1>
+        <p className='font-normal text-[10px] md:text-lg lg:text-xl mt-1  md:ml-0'>Share Your Business And Project Goals — You Can Count On Me!</p>
       </div>
 
       {/* Top Dots Navigation */}
