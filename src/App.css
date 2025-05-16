@@ -1,0 +1,36 @@
+@import "tailwindcss";
+.font-oswald {
+    font-family: 'Oswald', sans-serif;
+  }
+.font-jost {
+  font-family: 'Jost', sans-serif;
+}
+@keyframes fade-in-letter {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.letter-animate {
+  display: inline-block;
+  opacity: 0;
+  animation: fade-in-letter 0.5s ease-out forwards;
+}
+@media (max-width: 768px) {
+  .letter-animate {
+    transform: translateY(10px);
+    animation-duration: 0.4s;
+  }
+}
+
+@media (max-width: 640px) {
+  .letter-animate {
+    transform: translateY(5px);
+    animation-duration: 0.3s;
+  }
+}
