@@ -28,7 +28,7 @@ const Mobileapp = () => {
         <img src={img5} alt="Corfey homepage" className="w-[84px] md:w-[11.6%] lg:w-[106px] xl:w-[155px] h-auto aspect-[158/290] object-cover object-top shadow-2xl" />
         <img src={img6} alt="HOME PAGE PRO IOS APP" className="w-[84px] md:w-[11.6%] lg:w-[106px] xl:w-[155px] h-auto aspect-[158/290] object-cover object-bottom shadow-2xl" />
         <img src={img7} alt="PLAN" className="w-[84px] md:w-[11.6%] lg:w-[106px] xl:w-[155px] h-auto aspect-[158/290] object-cover object-bottom shadow-2xl" />
-        <img src={img8} alt="PAYMENT DATA" className="w-[84px] md:w-[11.6%]  lg:w-[106px] xl:w-[155px] h-auto aspect-[158/275] object-cover object-center md:mt-1 lg:mt-2 shadow-2xl" />
+        <img src={img8} alt="PAYMENT DATA" className="w-[84px] md:w-[11.6%]  lg:w-[106px] xl:w-[155px] h-auto aspect-[158/275] object-cover object-center md:mt-0 lg:mt-0 shadow-2xl" />
       </div>
 
       {/* Second row - Desktop: 8 images, Mobile: split into 2 rows of 4 */}
