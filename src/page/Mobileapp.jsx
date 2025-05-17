@@ -21,26 +21,26 @@ const Mobileapp = () => {
     <div className="w-screen  pl-4 pr-4  md:w-full  lg:w-full xl:pl-13 xl:pr-12  py-12  flex flex-col gap-2 md:gap-4 items-center -mt-3 md:mt-6  lg:mt-8">
       {/* First row - Desktop: 8 images, Mobile: split into 2 rows of 4 */}
       <div className="hidden md:flex gap-2 lg:gap-4 w-full justify-center">
-        <img src={img1} alt="Welcome page" className="w-[84px] md:w-[11.6%]  lg:w-[106px] xl:w-[155px] h-auto aspect-[158/311] object-cover object-top " />
-        <img src={img2} alt="Sign up page" className="w-[84px] md:w-[11.6%] lg:w-[106px] xl:w-[155px] h-auto aspect-[158/311] object-cover object-top" />
-        <img src={img3} alt="Sign in page" className="w-[84px] md:w-[11.6%] lg:w-[106px] xl:w-[155px] h-auto aspect-[158/311] object-cover object-top" />
-        <img src={img4} alt="Home page" className="w-[84px] md:w-[11.6%] lg:w-[106px] xl:w-[155px] h-auto aspect-[158/311] object-cover object-top" />
-        <img src={img5} alt="Corfey homepage" className="w-[84px] md:w-[11.6%] lg:w-[106px] xl:w-[155px] h-auto aspect-[158/290] object-cover object-top" />
-        <img src={img6} alt="HOME PAGE PRO IOS APP" className="w-[84px] md:w-[11.6%] lg:w-[106px] xl:w-[155px] h-auto aspect-[158/290] object-cover object-bottom" />
-        <img src={img7} alt="PLAN" className="w-[84px] md:w-[11.6%] lg:w-[106px] xl:w-[155px] h-auto aspect-[158/290] object-cover object-bottom" />
-        <img src={img8} alt="PAYMENT DATA" className="w-[84px] md:w-[11.6%]  lg:w-[106px] xl:w-[155px] h-auto aspect-[158/275] object-cover object-center md:mt-1 lg:mt-2" />
+        <img src={img1} alt="Welcome page" className="w-[84px] md:w-[11.6%]  lg:w-[106px] xl:w-[155px] h-auto aspect-[158/311] object-cover object-top  shadow-2xl" />
+        <img src={img2} alt="Sign up page" className="w-[84px] md:w-[11.6%] lg:w-[106px] xl:w-[155px] h-auto aspect-[158/311] object-cover object-top shadow-2xl" />
+        <img src={img3} alt="Sign in page" className="w-[84px] md:w-[11.6%] lg:w-[106px] xl:w-[155px] h-auto aspect-[158/311] object-cover object-top shadow-2xl" />
+        <img src={img4} alt="Home page" className="w-[84px] md:w-[11.6%] lg:w-[106px] xl:w-[155px] h-auto aspect-[158/311] object-cover object-top shadow-2xl" />
+        <img src={img5} alt="Corfey homepage" className="w-[84px] md:w-[11.6%] lg:w-[106px] xl:w-[155px] h-auto aspect-[158/290] object-cover object-top shadow-2xl" />
+        <img src={img6} alt="HOME PAGE PRO IOS APP" className="w-[84px] md:w-[11.6%] lg:w-[106px] xl:w-[155px] h-auto aspect-[158/290] object-cover object-bottom shadow-2xl" />
+        <img src={img7} alt="PLAN" className="w-[84px] md:w-[11.6%] lg:w-[106px] xl:w-[155px] h-auto aspect-[158/290] object-cover object-bottom shadow-2xl" />
+        <img src={img8} alt="PAYMENT DATA" className="w-[84px] md:w-[11.6%]  lg:w-[106px] xl:w-[155px] h-auto aspect-[158/275] object-cover object-center md:mt-1 lg:mt-2 shadow-2xl" />
       </div>
 
       {/* Second row - Desktop: 8 images, Mobile: split into 2 rows of 4 */}
-      <div className="hidden md:flex gap-4 lg:gap-4 w-auto  justify-center">
-        <img src={img9} alt="Car detail page" className="w-[84px] md:w-[11.6%] lg:w-[106px] xl:w-[155px] h-auto aspect-[158/311] object-cover object-top" />
-        <img src={img10} alt="Search page" className="w-[84px] md:w-[11.6%] lg:w-[106px] xl:w-[155px] h-auto aspect-[158/311] object-cover object-top" />
-        <img src={img11} alt="Shopping Cart page" className="w-[84px] md:w-[11.6%] lg:w-[106px] xl:w-[155px] h-auto aspect-[158/311] object-cover object-top" />
-        <img src={img12} alt="Profile page" className="w-[84px] md:w-[11.6%] lg:w-[106px] xl:w-[155px] h-auto aspect-[158/311] object-cover object-top" />
-        <img src={img13} alt="WELCOME PAGE" className="w-[84px] md:w-[11.6%] lg:w-[106px] xl:w-[155px] h-auto aspect-[158/290] object-cover md:mt-3 lg:mt-5" />
-        <img src={img14} alt="HOME PAGE" className="w-[84px] md:w-[11.6%] lg:w-[106px] xl:w-[155px] h-auto aspect-[158/295] object-cover object-bottom md:mt-3 lg:mt-5" />
-        <img src={img15} alt="PRODUCT DETAILS" className="w-[84px] md:w-[11.6%] lg:w-[106px] xl:w-[155px] h-auto aspect-[158/290] object-cover  md:mt-3 lg:mt-5" />
-        <img src={img16} alt="CART PAGE" className="w-[84px] md:w-[11.6%] lg:w-[106px] xl:w-[155px] h-auto aspect-[158/290] object-cover  md:mt-3 lg:mt-5" />
+      <div className="hidden md:flex gap-2  lg:gap-4 w-full  justify-center"> 
+        <img src={img9} alt="Car detail page" className="w-[84px] md:w-[11.6%] lg:w-[106px] xl:w-[155px] h-auto aspect-[158/311] object-cover object-top shadow-2xl" />
+        <img src={img10} alt="Search page" className="w-[84px] md:w-[11.6%] lg:w-[106px] xl:w-[155px] h-auto aspect-[158/311] object-cover object-top shadow-2xl" />
+        <img src={img11} alt="Shopping Cart page" className="w-[84px] md:w-[11.6%] lg:w-[106px] xl:w-[155px] h-auto aspect-[158/311] object-cover object-top shadow-2xl" />
+        <img src={img12} alt="Profile page" className="w-[84px] md:w-[11.6%] lg:w-[106px] xl:w-[155px] h-auto aspect-[158/311] object-cover object-top shadow-2xl" />
+        <img src={img13} alt="WELCOME PAGE" className="w-[84px] md:w-[11.6%] lg:w-[106px] xl:w-[155px] h-auto aspect-[158/290] object-cover md:mt-0 lg:mt-0 shadow-2xl" />
+        <img src={img14} alt="HOME PAGE" className="w-[84px] md:w-[11.6%] lg:w-[106px] xl:w-[155px] h-auto aspect-[158/295] object-cover object-bottom md:mt-0 lg:mt-0 shadow-2xl" />
+        <img src={img15} alt="PRODUCT DETAILS" className="w-[84px] md:w-[11.6%] lg:w-[106px] xl:w-[155px] h-auto aspect-[158/290] object-cover  md:mt-0 lg:mt-0 shadow-2xl" />
+        <img src={img16} alt="CART PAGE" className="w-[84px] md:w-[11.6%] lg:w-[106px] xl:w-[155px] h-auto aspect-[158/290] object-cover  md:mt-0 lg:mt-0  shadow-2xl" />
       </div>
 
       {/* Mobile layout - 4 rows of 4 images */}

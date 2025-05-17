@@ -2,7 +2,7 @@ import React from 'react'
 
 const Skill = () => {
   return (
-    <div className='h-full  flex items-center flex-col justify-start p-2 relative -mt-6  md:-mt-[45%] lg:-mt-30 xl:mt-8 '>
+    <div className='h-full  flex items-center flex-col justify-start p-2 relative -mt-6  md:-mt-[45%] lg:-mt-90 xl:mt-8 '>
       {/* Header Section */}
       <div className="text-center max-w-4xl mx-auto mb-8 mt-10 md:mt-16">
         <h1 className='text-[20px] md:text-3xl lg:text-[40px]  font-medium -mt-4 font-jost text-center  md:ml-0'>I TELL THE STORY OF THE TIME</h1>

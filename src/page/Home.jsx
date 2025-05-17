@@ -26,7 +26,7 @@ const Home = () => {
   return (
     <div className="font-jost relative  w-screen md:w-full "> 
 
-      <div className="flex flex-col sm:flex-row min-h-screen ">
+      <div className="flex flex-col sm:flex-row min-h-screen sm:h-screen ">
         {/* Left image section */}
         <div className="w-full sm:w-1/2 relative h-[40vh] sm:h-full">
           <img src={photo} alt="Main" className="w-full h-full object-cover object-center" />
@@ -38,7 +38,7 @@ const Home = () => {
         </div>
 
         {/* Right text section */}
-        <div className="w-full sm:w-1/2 bg-black text-white flex flex-col    px-4 sm:px-12 lg:px-24 py-12 sm:py-0 relative h-auto sm:h-full  ">
+        <div className="w-full sm:w-1/2 bg-black  text-white flex flex-col    px-4 sm:px-12 lg:px-24 py-12 sm:py-0 relative h-auto sm:h-full  ">
             <div className='flex flex-row md:flex md:flex-col'>
               <div className="sm:absolute sm:top-64">
             <h1 className="text-[30px] sm:text-7xl lg:text-7xl lg:mt-[100%] md:text-5xl md:mt-[50%] xl:-mt-22  font-bold font-oswald tracking-wide">
@@ -46,7 +46,7 @@ const Home = () => {
             </h1>
           </div>
           <div className="mt-4 sm:mt-0 sm:absolute sm:top-[320px] ">
-            <h2 className="text-[30px] sm:text-7xl -mt-4 ml-3 lg:text-7xl lg:mt-[60%]  xl:-mt-14 xl:ml-0 font-bold font-oswald tracking-wide flex flex-wrap md:text-5xl md:mt-[30%]">
+            <h2 className="text-[30px] sm:text-7xl -mt-4 ml-3 md:-ml-0 lg:text-7xl lg:mt-[60%]  xl:-mt-14 xl:ml-0 font-bold font-oswald tracking-wide flex flex-wrap md:text-5xl md:mt-[30%]">
               <AnimatedLetters text="I'M" delay={0.8} />
               <span className="mx-2"></span>
               <AnimatedLetters text="BRIAN" delay={1.2} color="#BAFF29" />
@@ -67,17 +67,17 @@ const Home = () => {
           <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 mt-8 sm:mt-0 sm:absolute sm:top-[560px] md:mt-[50%] lg:mt-[90%] xl:-mt-8  ">
             <button
               onClick={openModal}
-              className="flex items-center justify-center border border-white text-lg sm:text-xl text-white px-4 py-3 gap-x-5  sm:px-2 sm:h-[50px] lg:px-6 lg:h-[60px] xl:w-[260px] rounded hover:bg-lime-400 hover:text-black transition"
+              className="flex items-center justify-center border border-white text-lg sm:text-xl text-white px-4 py-3 gap-x-5  sm:w-[150px] sm:px-2 sm:h-[50px] lg:px-6 lg:h-[60px]  lg:w-[180px] xl:w-[260px] rounded hover:bg-lime-400 hover:text-black transition"
             >
-           <svg width="24" height="24" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg  " className='-ml-6'>
+           <svg width="24" height="24" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg  " className='-ml-6 md:ml-0'>
   <path d="M7.9025 6.04167C7.975 7.11708 8.15625 8.16833 8.44625 9.17125L6.99625 10.6213C6.50083 9.17125 6.18667 7.63667 6.07792 6.04167H7.9025ZM19.8167 20.5658C20.8438 20.8558 21.895 21.0371 22.9583 21.1096V22.91C21.3633 22.8013 19.8288 22.4871 18.3667 22.0037L19.8167 20.5658ZM9.0625 3.625H4.83333C4.16875 3.625 3.625 4.16875 3.625 4.83333C3.625 16.1796 12.8204 25.375 24.1667 25.375C24.8313 25.375 25.375 24.8313 25.375 24.1667V19.9496C25.375 19.285 24.8313 18.7413 24.1667 18.7413C22.6683 18.7413 21.2063 18.4996 19.8529 18.0525C19.7321 18.0042 19.5992 17.9921 19.4783 17.9921C19.1642 17.9921 18.8621 18.1129 18.6204 18.3425L15.9621 21.0008C12.5425 19.2487 9.73917 16.4575 7.99917 13.0379L10.6575 10.3796C10.9958 10.0413 11.0925 9.57 10.9596 9.14708C10.5125 7.79375 10.2708 6.34375 10.2708 4.83333C10.2708 4.16875 9.72708 3.625 9.0625 3.625Z" fill="white"/>
 </svg>
 
 
-              Contact Me
+             <span className='md:text-[15px] lg:text-[15px] xl:text-[20px] '>Contact Me</span>
             </button>
             <a href="https://forms.gle/qkEHLZ3Leugf3Q8S7" target="_blank" rel="noopener noreferrer" className="block">
-              <button className="bg-lime-400 text-lg sm:text-xl w-full sm:w-[140px] py-3 sm:h-[50px] lg:w-[180px] lg:h-[60px] xl:w-[260px]  text-black rounded  ">
+              <button className="bg-lime-400 text-lg sm:text-xl w-full sm:w-[150px] py-3 sm:h-[50px]  lg:w-[180px] lg:h-[60px] xl:w-[260px]  text-black rounded  ">
                 Hire Me
               </button>
             </a>
